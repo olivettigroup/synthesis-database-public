@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Program output
+*.out
+*.err
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+.DS_Store
+*/pstotext
+
+#Directories
+*_pdfs/
+plaintext/
+xmls/
+pdfs/
+*_xmls/
+files/
+fig/
+*/bin/
+logs/
+
+*.pkl
+
+#FastXML stuff
+*.o
+synthesisdatabase/fastxml/src/Data/Operations/
+synthesisdatabase/fastxml/src/model/
+synthesisdatabase/fastxml/src/predict.dSYM
+synthesisdatabase/fastxml/src/train.dSYM
+synthesisdatabase/fastxml/src/predict
+synthesisdatabase/fastxml/src/train
+synthesisdatabase/fastxml/src/scores.txt
+target_to_features_vector.txt
+target_to_operation_ids.txt
+
+
+# Python environment for server
+ENV/*
+bin/*
+include/*
+local/*
+pip-selfcheck.json
+man/*
+synthesisdatabase/ENV/*
